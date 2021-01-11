@@ -1,0 +1,9 @@
+<p>Button</p>
+
+<button (click)="backgroundToggle = !backgroundToggle">Click!</button>
+
+<div [ngClass]="{
+  red: backgroundToggle,
+  blue: !backgroundToggle
+}"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, veritatis?</p>
+</div>
